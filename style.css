@@ -1,0 +1,53 @@
+/* ===== Global Styles ===== */
+body {
+    font-family: "Verdana", serif;
+    background-color: #faf8f4;
+    color: #2f2f2f;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Navigation Bar ===== */
+nav {
+    background-color: #4a3f35;
+    color: #f5f2ef;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+nav a {
+    color: #f5f2ef;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #ffb347;
+}
+
+/* ===== Main Content ===== */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #222;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px 0;
+    background-color: #eae4dc;
+    color: #444;
+}
